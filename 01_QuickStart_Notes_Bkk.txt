@@ -1,0 +1,8 @@
+git config --global user.name "Bryon Kenne"
+git config --global user.email "bkenne@gmail.com"
+git config --global --list
+git clone https://github.com/bkenne/learning-repo.git
+git status
+git add name-of-file
+git commit -m "Adding message"
+git push origin master
