@@ -2,7 +2,22 @@ git config --global user.name "Bryon Kenne"
 git config --global user.email "bkenne@gmail.com"
 git config --global --list
 git clone https://github.com/bkenne/learning-repo.git
-git status
+pwd
+
 git add name-of-file
 git commit -m "Adding message"
 git push origin master
+
+C:\Program Files (x86)\Notepad++
+
+# To Remove a directory
+rm -rf fresh-project/
+
+# -al  (all files and folders in listing format)
+ls -al
+
+# Backout from staging
+git reset HEAD filename
+
+# Restore from previous version
+git checkout -- filename
