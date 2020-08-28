@@ -21,3 +21,24 @@ git reset HEAD filename
 
 # Restore from previous version
 git checkout -- filename
+
+
+# Open Config File
+git config --global -e
+
+# Show Log 
+git log --oneline --graph --decorate --all
+
+#Branching
+git branch #show branches
+git checkout -b 'branchname' # Creates and checks out branch
+git checkout master # move to master
+
+git commit -am "some commit text" #commits all changes
+
+git branch -d 'branch name' # deletes branch
+
+# Comparing files
+
+git difftool loc1 loc2
+git mergetool 
